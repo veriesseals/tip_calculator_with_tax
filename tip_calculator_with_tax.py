@@ -1,5 +1,6 @@
 space = "\n"
 print(space)
+
 # Print Welcome to Tip Calculator
 # ----------------------------------------------------
 
