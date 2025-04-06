@@ -1,7 +1,7 @@
 space = "\n"
 print(space)
 
-# Print Welcome to Tip Calculator
+# Print Welcome to My Tip Calculator
 # ----------------------------------------------------
 
 greeting = "Welcome to the Tip Calculator!\n "
@@ -52,7 +52,7 @@ print("This will be your bill with tax added: ", '${:,.2f}'.format(total_bill))
 
 print(space)
 num_of_guest_to_split = int(input("Enter number of guest "))
-print(num_of_guest_to_split)
+print(f"You have entered: {num_of_guest_to_split} guest!")
 
 # each person should pay
 # ----------------------------------------------------
