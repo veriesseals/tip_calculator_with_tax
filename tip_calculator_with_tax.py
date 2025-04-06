@@ -1,7 +1,9 @@
-# Print Welcome to tip calculator
+space = "\n"
+print(space)
+# Print Welcome to Tip Calculator
 # ----------------------------------------------------
 
-greeting = "Welcome to the tip calculator "
+greeting = "Welcome to the Tip Calculator!\n "
 print(greeting)
 
 # Define input to take in the input for the total bill from user
@@ -10,6 +12,7 @@ print(greeting)
 total_bill = float(input("Enter total bill "))
 print('${:,.2f}'.format(total_bill))
 
+print(space)
 # Define input to take in the tip amount percentage from user
 # ----------------------------------------------------
 
@@ -46,12 +49,14 @@ print("This will be your bill with tax added: ", '${:,.2f}'.format(total_bill))
 # Enter number of users to split the bill
 # ----------------------------------------------------
 
+print(space)
 num_of_guest_to_split = int(input("Enter number of guest "))
 print(num_of_guest_to_split)
 
 # each person should pay
 # ----------------------------------------------------
 
+print(space)
 each_should_pay = total_bill / num_of_guest_to_split
 print("Each guest should pay: " '${:,.2f}'.format(each_should_pay))
 
